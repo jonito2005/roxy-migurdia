@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
-    $apiKey = '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';
+    $apiKey = ''; // Masukan Api Perplexity disini
     $apiUrl = 'https://api.perplexity.ai/chat/completions';
 
     // Simpan riwayat percakapan dalam sesi
