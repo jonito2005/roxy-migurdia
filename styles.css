@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.chat-container {
+    background-color: rgba(255, 255, 255, 0.426);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    overflow: hidden;
+}
+
+.chat-header {
+    text-align: center;
+    padding: 10px 10px 0 10px; /* Tambahkan padding bawah */
+}
+
+.character-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: -10px; /* Kurangi margin bawah agar gambar lebih dekat */
+}
+
+.chat-box {
+    flex-grow: 1;
+    padding: 10px 20px 40px 20px; /* Kurangi padding atas */
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.chat-box .message {
+    margin: 10px 0 !important;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.chat-box .message.user {
+    background-color: #e1ffc7;
+    align-self: flex-end;
+}
+
+.chat-box .message.bot {
+    background-color: #dfaee5ce;
+    align-self: flex-start;
+}
+
+#chat-form {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 10px; /* Tambahkan padding */
+    background-color: rgba(255, 255, 255, 0.375); /* Buat transparan 50% */
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+#chat-form button {
+    padding: 10px;
+    background-color: rgb(74, 131, 200);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.send-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #dfaee5ce;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.send-icon {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+.love-icon {
+    color: #dfaee5ce;
+}
+
+@media (max-width: 600px) {
+    .chat-container {
+        width: calc(100% - 20px);
+        border-radius: 0;
+        margin: 0 10px;
+    }
+
+    .chat-box {
+        padding: 10px;
+    }
+
+    #user-input {
+        padding: 8px;
+    }
+
+    #chat-form button {
+        padding: 8px;
+    }
+
+    .send-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .send-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
