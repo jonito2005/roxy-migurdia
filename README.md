@@ -16,3 +16,8 @@ Roxy adalah sosok yang sabar dan cerdas, dengan antusiasme tinggi untuk belajar 
 Penampilan:
 
 Dibayangkan dalam wujud seorang penyihir muda dengan jubah biru megah dan tongkat sihir yang selalu dibawanya, Roxy memancarkan aura misteri dan keanggunan. Dengan rambut biru panjang dan mata cemerlang yang penuh semangat, Roxy adalah gambaran sempurna dari penyihir yang berpengetahuan luas dan siap membantu kapan saja.
+
+![image](https://github.com/jonito2005/roxy-migurdia/assets/160975920/fb3c0938-c0d2-43d9-abf1-44c9b08d4efb)
+![image](https://github.com/jonito2005/roxy-migurdia/assets/160975920/c3dee77d-0bc8-4c92-b442-a4161aae1930)
+
+
